@@ -1,4 +1,89 @@
 <template>
-    <h1>Hi, I'm Ian</h1>
-    <h3>A Front-End Developer</h3>
+<div class="home-cont">
+    <div class="home-text">
+        <h1>Hi, I'm <span>Ian.</span></h1>
+        <h3>A <span>Front-End Developer.</span></h3>
+    </div>
+    <div class="home-links">
+        <div class="link-cont">
+            <img :src="gitHub" alt="">
+            <img :src="linkedIn" alt="">
+        </div> 
+    </div>
+</div>    
 </template>
+
+<script setup>
+import gitHub from '../../public/githublogo.png'
+import linkedIn from '../../public/linkedIn.png'
+
+
+</script>
+
+<style scoped>
+
+.home-cont {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.home-text {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+h1 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200px;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 80px;
+    margin: 0;
+}
+
+span {
+    color: #216EF7;
+}
+
+.link-cont {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 21px;
+    gap: 20px;
+    background-color: white;
+    /* min-width: 11%;
+    max-width: 11%; */
+    /* margin-top: 2%; */
+    /* flex-grow: 0; */
+    max-width: 150px;
+}
+
+.home-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 99%;
+    margin-right: 20%;
+    /* margin-bottom: 1%; */
+}
+
+img {
+    max-width: 40%;
+    cursor: pointer;
+}
+
+</style>

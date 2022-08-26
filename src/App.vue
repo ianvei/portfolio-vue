@@ -14,23 +14,13 @@ import HomeContent from './components/HomeContent.vue'
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 
 .body-content {
   width: 100vw;
   height: 100vh;
   background-image: url('/public/0030.jpg');
-  background-size: 100%;
+  background-size: 120%;
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
