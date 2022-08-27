@@ -9,8 +9,10 @@ import HomeContent from './components/HomeContent.vue'
   
   <div class="body-content">
     <HeaderPortfolio />
-    <HomeContent />
+    <RouterView />
+    <!-- <HomeContent /> -->
   </div>
+
 </template>
 
 <style scoped>
@@ -18,7 +20,8 @@ import HomeContent from './components/HomeContent.vue'
 
 .body-content {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
+  background-attachment: fixed;
   background-image: url('/public/0030.jpg');
   background-size: 120%;
   background-repeat: no-repeat;

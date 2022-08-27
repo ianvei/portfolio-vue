@@ -34,7 +34,7 @@ header {
 }
 
 a:last-child {
-    padding-right: 5%;
+    margin-right: 5%;
 }
 
 img {
@@ -44,6 +44,16 @@ img {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    max-width: fit-content;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
 
 
 
