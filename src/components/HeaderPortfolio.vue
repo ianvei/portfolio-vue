@@ -2,10 +2,10 @@
     <header>
         <img :src="ianLogo" alt="">
         <div class="header-links">
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">WORK EXPERIENCE</a>
-            <a href="">PROJECTS</a>
+            <router-link to="/">HOME</router-link>
+            <router-link to="/about">ABOUT</router-link>
+            <router-link to="/work">WORK EXPERIENCE</router-link>
+            <router-link to="/projects">PROJECTS</router-link>
         </div>
     </header>
 </template>
@@ -24,6 +24,8 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 1.5%;
+    position: sticky;
+    top: 0;
 }
 
 .header-links {
@@ -31,6 +33,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 a:last-child {

@@ -4,10 +4,10 @@
     
     <div class="project-card" v-for="project in projectData">
         <div class="image-btn-cont">
-            <img :src="project.img" alt="">
+            <img :src="project.img" :alt="project.alt">
             <div class="button-links">
-                <a :href="project.demoLink">LIVE DEMO</a>
-                <a :href="project.gitHub" id="github">GITHUB <img :src="githublogo" id='githublogo' alt=""></a> 
+                <a :href="project.demoLink" target="_blank">LIVE DEMO</a>
+                <a :href="project.gitHub" id="github" target="_blank">GITHUB <img :src="githublogo" id='githublogo' alt=""></a> 
             </div>
         </div>
         <div class="text-content">
@@ -158,6 +158,10 @@ img {
     font-style: italic;
     font-weight: 700;
     color: #216EF7;
+}
+
+.project-card:last-child {
+    margin-bottom: 1.5%;
 }
 
 </style>

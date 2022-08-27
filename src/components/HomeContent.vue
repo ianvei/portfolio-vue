@@ -24,7 +24,7 @@ import linkedIn from '../../public/linkedIn.png'
 
 .home-cont {
     width: 100%;
-    height: 90%;
+    height: 91vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
