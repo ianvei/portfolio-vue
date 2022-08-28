@@ -12,7 +12,7 @@
 
 
 <script setup> 
-import ianLogo from '../../public/ianlogo.png'
+import ianLogo from '/ianlogo.png'
 
 </script>
 

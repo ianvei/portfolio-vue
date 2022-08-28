@@ -1,8 +1,8 @@
-import minesweeperImg from '../../public/minesweeper.png'
-import pedalsupplyImg from '../../public/pedalsupply.png'
-import battleshipImg from '../../public/battleship.png'
-import resumeTool from '../../public/resumeTool.png'
-import portfolioImg from '../../public/portfolio.png'
+import minesweeperImg from '/minesweeper.png'
+import pedalsupplyImg from '/pedalsupply.png'
+import battleshipImg from '/battleship.png'
+import resumeTool from '/resumeTool.png'
+import portfolioImg from '/portfolio.png'
 
 const projectData = [
     {
@@ -17,7 +17,7 @@ const projectData = [
         name: 'PEDALSUPPLY',
         description: 'is an ecommerce store built with <span>React</span>, <span>React Router</span>, <span>Context API</span> and <span>Reducers</span> to handle state across the entire application. The store is completely responsive, allowing for a seamless experience on Mobile or Desktop. The application’s routing uses a hash router, and is hosted on github pages',
         img: pedalsupplyImg,
-        demoLink: 'https://minesweeper95-eb7bb.web.app/',
+        demoLink: 'https://ianvei.github.io/ecommerce/',
         gitHub: 'https://github.com/ianvei/ecommerce',
         alt: 'homepage of a guitar pedal store, featuring a mountain scene in the background and a logo that reads pedal supply',
     },

@@ -14,8 +14,8 @@
 </template>
 
 <script setup>
-import gitHub from '../../public/githublogo.png'
-import linkedIn from '../../public/linkedIn.png'
+import gitHub from '/githublogo.png'
+import linkedIn from '/linkedIn.png'
 
 
 </script>

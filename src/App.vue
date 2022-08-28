@@ -22,7 +22,7 @@ import HomeContent from './components/HomeContent.vue'
   width: 100vw;
   /* height: 100vh; */
   background-attachment: fixed;
-  background-image: url('/public/0030.jpg');
+  background-image: url('/0030.jpg');
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: top center;

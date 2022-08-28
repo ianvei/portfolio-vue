@@ -21,7 +21,7 @@
 
 <script setup>
 import projectData from '../data/projects';
-import githublogo from '../../public/githublogo.png'
+import githublogo from '/githublogo.png'
 
 </script>
 
@@ -154,7 +154,7 @@ img {
     filter: invert(1);
 }
 
-::v-deep span {
+:deep span {
     font-style: italic;
     font-weight: 700;
     color: #216EF7;
