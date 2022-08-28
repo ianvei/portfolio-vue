@@ -86,4 +86,33 @@ img {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 850px) { 
+    .home-cont {
+        height: 98vh;
+        gap: 5%;
+        justify-content: center;
+    }
+
+    .home-text {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h1, h3 {
+        text-align: center;
+    }
+
+    .home-links {
+        justify-content: center;
+    }
+
+}
+
 </style>

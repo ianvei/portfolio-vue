@@ -58,6 +58,12 @@ a:hover {
     border-bottom: 1px solid black;
 }
 
+@media only screen and (max-width: 850px) {
+  .header-links {
+    display: none;
+  }
 
+  
+}
 
 </style>

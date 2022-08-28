@@ -30,6 +30,15 @@ import HomeContent from './components/HomeContent.vue'
 
 }
 
+@media only screen and (max-width: 850px) {
+  .body-content {
+    background-size: 300%;
+    background-repeat: repeat;
+  }
+
+  
+}
+
 
 
 

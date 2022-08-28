@@ -164,4 +164,29 @@ img {
     margin-bottom: 1.5%;
 }
 
+@media only screen and (max-width: 850px) {
+  .text-content {
+    display: none;
+  }
+
+  .image-btn-cont {
+    width: 90%;
+  }
+
+  a, #github {
+    width: 100%;
+  }
+
+  .button-links {
+    flex-direction: column;
+    height: 35%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+
+}
+
 </style>

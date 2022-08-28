@@ -1,5 +1,6 @@
 <template>
 <div class="work-cont">
+    <h1 class="header-title">Work Experience</h1>
     <div class="work-content">
         <div class="work-card" v-for="job in workExperienceData">
             <div class="image-cont">
@@ -30,8 +31,18 @@ import workExperienceData from '../data/workexperience';
     align-items: center;
     justify-content: center;
     /* margin-bottom: 1000px; */
-    height: 91vh;
+    /* height: 91vh; */
     /* margin-top: 1%; */
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+}
+
+.header-title {
+    align-self: flex-start;
+    padding-left: 2.5%;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #216EF7;
 }
 
 .work-card {
@@ -47,6 +58,7 @@ import workExperienceData from '../data/workexperience';
     /* padding-left: 3%;
     padding-right: 5%; */
     border-radius: 11px;
+    margin-bottom: 1.5%;
 }
 
 img {
@@ -100,5 +112,41 @@ h3 {
     /* color: black; */
 }
 
+@media only screen and (max-width: 850px) { 
+    .work-cont {
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .work-card {
+        grid-template-columns: 1fr;
+    }
+    
+    img {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 40px;
+        text-align: center;
+        /* margin-top: 20px; */
+    }
+    .title {
+        flex-direction: column;
+    }
+
+    .description {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3, .date {
+        font-size: 15px;
+    }
+}
 
 </style>
