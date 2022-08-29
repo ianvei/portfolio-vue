@@ -35,7 +35,7 @@
 import ianLogo from '/ianlogo.png'
 import { ref } from 'vue'
 import gitHub from '/githublogo.png'
-import linkedIn from '/linkedIn.png'
+import linkedIn from '/linkedin.png'
 
 const visible = ref(false);
 
