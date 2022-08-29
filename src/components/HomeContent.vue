@@ -7,7 +7,7 @@
     <div class="home-links">
         <div class="link-cont">
             <a href="https://github.com/ianvei" target="_blank"><img :src="gitHub" alt=""></a>
-            <a href="https://github.com/ianvei" target="_blank"><img :src="linkedIn" alt=""></a>
+            <a href="https://www.linkedin.com/in/ian-veilleux/" target="_blank"><img :src="linkedIn" alt=""></a>
         </div> 
     </div>
 </div>    
