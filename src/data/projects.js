@@ -1,7 +1,7 @@
 import minesweeperImg from '/minesweeper.png'
 import pedalsupplyImg from '/pedalsupply.png'
 import battleshipImg from '/battleship.png'
-import resumeTool from '/resumeTool.png'
+import resumeTool from '/resumetool.png'
 import portfolioImg from '/portfolio.png'
 
 const projectData = [
@@ -24,7 +24,7 @@ const projectData = [
     {
         name: 'RESUME TOOL',
         description: "is a tool created with <span>React</span>. This project functioned as a way to practice getting and setting state reactively using form data, and also as a way to assist my friends with creating resumes. In my internship with the Haskayne School of Business I had the opportunity to produce a <a href='https://www.youtube.com/watch?v=hi6HDjpyUnY&list=PLij2g4WVIYc13zBFHFejMWgSv7JAaNosc' target='_blank'>series of video interviews with a recruitment professional</a>, and I wanted to translate these best-practices into a web application that my friends could use to create their CV. <strong>COMING SOON:</strong> Exporting to PDF functionality",
-        img: resumeTool,
+        img: resumetool,
         demoLink: 'https://ianvei.github.io/cv-react/',
         gitHub: 'https://github.com/ianvei/cv-react',
         alt: 'a screenshot of a CV website, with sections name, summary, work experience, volunteer experience, contact, skills, and education.'

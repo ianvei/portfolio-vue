@@ -15,7 +15,7 @@
 
 <script setup>
 import gitHub from '/githublogo.png'
-import linkedIn from '/linkedIn.png'
+import linkedIn from '/linkedin.png'
 
 
 </script>
