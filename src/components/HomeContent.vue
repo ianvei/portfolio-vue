@@ -6,8 +6,8 @@
     </div>
     <div class="home-links">
         <div class="link-cont">
-            <img :src="gitHub" alt="">
-            <img :src="linkedIn" alt="">
+            <a href="https://github.com/ianvei" target="_blank"><img :src="gitHub" alt=""></a>
+            <a href="https://github.com/ianvei" target="_blank"><img :src="linkedIn" alt=""></a>
         </div> 
     </div>
 </div>    
@@ -82,8 +82,12 @@ span {
 }
 
 img {
-    max-width: 40%;
+    max-width: 100%;
     cursor: pointer;
+}
+
+a {
+    display: inline-block;
 }
 
 @media only screen and (min-width: 1900px) {

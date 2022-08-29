@@ -166,6 +166,8 @@ h3 {
         font-size: 35px;
     }
 
+    
+
     .date {
         font-size: 30px;
     }

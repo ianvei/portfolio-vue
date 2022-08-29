@@ -152,6 +152,17 @@ a:hover {
     display: none;
   }
 
+  header > img {
+    padding-left: 20px;
+    max-width: 40px;
+    padding-top: 10px;
+  }
+
+  .menu {
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
   .hidden-nav {
     position: fixed;
     width: 80vw;

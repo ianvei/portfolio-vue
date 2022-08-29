@@ -35,6 +35,13 @@
                     <i class="devicon-vuejs-plain"></i>
                     <p>VUE</p>
                 </div>
+                <div class="text-icon">
+                    <i class="devicon-mysql-plain"></i>
+                    <p>SQL</p>
+                </div>
+                
+           
+          
                 
 
             </div>

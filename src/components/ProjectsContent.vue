@@ -186,12 +186,24 @@ img {
     text-align: center;
   }
 
-  @media only screen and (min-width: 1500px) {
-    .image-btn-cont > img {
-       max-width: 30%;
-    }
-  }
+ 
+
 
 }
+
+@media only screen and (min-width: 1900px) {
+    img {
+       max-width: 90% ;
+    }
+
+    .image-btn-cont {
+        width: 25%;
+    }
+
+    .title {
+        padding-left: 12%;
+    }
+
+  }
 
 </style>
