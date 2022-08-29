@@ -1,6 +1,6 @@
 <template>
 <div class="work-cont">
-    <h1 class="header-title">Work Experience</h1>
+    <h1 class="header-title">WORK EXPERIENCE</h1>
     <div class="work-content">
         <div class="work-card" v-for="job in workExperienceData">
             <div class="image-cont">
@@ -102,8 +102,12 @@ h3 {
     color: #4D4D4D;
     font-style: italic;
     font-weight: 400;
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
+}
+
+:deep a {
+    text-decoration: none;
 }
 
 :deep span {
@@ -148,5 +152,29 @@ h3 {
         font-size: 15px;
     }
 }
+
+@media only screen and (min-width: 1500px) {
+    .work-cont {
+        height: 92vh;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .date {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 25px;
+    }
+
+}
+
 
 </style>

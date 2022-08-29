@@ -186,6 +186,11 @@ img {
     text-align: center;
   }
 
+  @media only screen and (min-width: 1500px) {
+    .image-btn-cont > img {
+       max-width: 30%;
+    }
+  }
 
 }
 

@@ -126,10 +126,41 @@ img {
     color: #216EF7;
 }
 
+@media only screen and (min-width: 1900px) {
+
+.about-cont {
+    height: 92vh;
+}
+.profile > p {
+        font-size: 30px;
+    }
+
+h2 {
+    font-size: 40px;
+}
+
+.text-icon > p {
+    font-size: 25px;
+}
+
+i {
+    font-size: 100px;
+}
+
+}
+
 @media only screen and (max-width: 850px) {
-  .text-content {
-    display: none;
-  }
+    .about-cont {
+        height: auto;
+    }
+
+    .profile > p {
+        font-size: 16px;
+    }
+    .skill-icons {
+        overflow: scroll;
+        width: 100%;
+    }
 }
 
 </style>

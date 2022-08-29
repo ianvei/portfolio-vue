@@ -86,6 +86,17 @@ img {
     cursor: pointer;
 }
 
+@media only screen and (min-width: 1900px) {
+
+    .home-cont {
+        height: 92vh;
+    }
+    h1 {
+        font-size: 300px;
+    }
+}
+
+
 @media only screen and (max-width: 850px) { 
     .home-cont {
         height: 98vh;
